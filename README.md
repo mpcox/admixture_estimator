@@ -22,10 +22,10 @@ While a wide range of genetic data can be used with this code, it is primarily i
 | Number of Genotypes | 20 | 20 | ... | 20 |
 | Reference Allele Frequency | 0.85 | 0.85 | ... | 0.60 |
 
-The same information is required for two proxy parental populations.  In the example code, Han Chinese and Papua New Guinea Highlanders are used as the proxy Asian and Papuan populations, respectively.
+The same information is required for two proxy parental populations.  In the example code, Han Chinese and Papua New Guinea Highlanders are used as the proxy Asian and Papuan parental populations, respectively.
 
-The code calculates the admixture estimator of Chakraborty *et al* (1992). However, the admixture estimates returned can be quite sensitive to the dataset, especially for small sample sizes. To place statistical bounds on this uncertainty, the code generates random allele frequency densities by pulling samples of observed size *n* from the observed frequency profile. These simulated densities are generated for both proxy parental populations and the admixed population, and Monte Carlo simulation is used to infer both the admixture proportion and estimated variance around this value.
+The code calculates the admixture estimator of Chakraborty *et al* (1992). However, the admixture estimates returned can be quite sensitive to the dataset, especially for small sample sizes. To place statistical bounds on this uncertainty, the code generates random allele frequency densities by pulling samples of observed size *n* from the observed frequency profile. These simulated densities are generated for both proxy parental populations and the admixed population, and Monte Carlo simulation is used to infer both the admixture proportion and estimated variance.
 
-The code outputs mean and median estimates of the admixture proportion, together with assymetric 95% confidence intervals.
+The code returns mean and median estimates of the admixture proportion (relative to the parental reference population), together with assymetric 95% confidence intervals.
 
-> Note: This code was designed for small numbers of ancestry informative markers and is not designed to scale well. For very large numbers of markers (e.g., from SNP genotyping arrays), alternative approaches might be preferable.
+> Note: This code was designed for small numbers of ancestry informative markers and will not scale well. For very large numbers of markers (e.g., from SNP genotyping arrays), alternative approaches might be preferable.
