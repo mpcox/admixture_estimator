@@ -2,11 +2,11 @@
 
 The code presented here calculates the admixture estimates given in:
 
-Cox MP, TM Karafet, JS Lansing, H Sudoyo and MF Hammer. 2010. [https://doi.org/10.1098/rspb.2009.2041](Autosomal and X-linked single nucleotide polymorphisms reveal a steep Asian-Melanesian ancestry cline in eastern Indonesia and a sex bias in admixture rates). *Proceedings of the Royal Society B* 277:1589-1596.
+Cox MP, TM Karafet, JS Lansing, H Sudoyo and MF Hammer. 2010. [Autosomal and X-linked single nucleotide polymorphisms reveal a steep Asian-Melanesian ancestry cline in eastern Indonesia and a sex bias in admixture rates](https://doi.org/10.1098/rspb.2009.2041). *Proceedings of the Royal Society B* 277:1589-1596.
 
 The original admixture estimator was developed by:
 
-Chakraborty R, MI Kamboh, M Nwankwo and RE Ferrell. 1992. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1682537/](Caucasian genes in American Blacks: New data). *American Journal of Human Genetics* 50:145–155.
+Chakraborty R, MI Kamboh, M Nwankwo and RE Ferrell. 1992. [Caucasian genes in American Blacks: New data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1682537/). *American Journal of Human Genetics* 50:145–155.
 
 Specifically equation 6 (see Chakraborty *et al* (1992) for details):
 
