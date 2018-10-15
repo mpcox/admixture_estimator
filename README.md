@@ -10,12 +10,14 @@ Chakraborty R, MI Kamboh, M Nwankwo and RE Ferrell. 1992. [https://www.ncbi.nlm.
 
 Specifically equation 6 (see Chakraborty *et al* (1992) for details):
 
-![Chakraborty Equation 6](Chakraborty_Equation6.jpg)
+![Chakraborty Equation 6](Chakraborty_Equation6.jpg  | width=100)
 
 The [example code](admixture_estimator.R), written in base R, shows an analysis of Asian-Papuan admixture in the Rindi population of Sumba, eastern Indonesia.
 
 While any data can be used with this code, it is intended to be used with Ancestry Informative Markers (AIMs) that carry substantial information about genetic ancestry.  The basic data structures required by the code are vectors of markers, the number of genotypes screened for each marker and the marker allele frequency relative to the reference population (here, the Asian variant):
 
+
+|       | Marker 1 | Marker 2 | Marker 3 | Marker 4 | ... | Marker *n* |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | Marker | SNP1_chr2_3996214 | SNP2_chr7_152691894 | SNP3_chr11_20238944 | SNP4_chr13_64798694 | ... | SNP39_chr22_1984584 |
 | Number of Genotypes | 20 | 20 | 20 | 20 | ... | 20 |
