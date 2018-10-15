@@ -1,6 +1,6 @@
 # Admixture Estimator
 
-The code presented here calculates the admixture estimates shown in:
+The R code presented here calculates the admixture estimates shown in:
 
 Cox MP, TM Karafet, JS Lansing, H Sudoyo and MF Hammer. 2010. [Autosomal and X-linked single nucleotide polymorphisms reveal a steep Asian-Melanesian ancestry cline in eastern Indonesia and a sex bias in admixture rates](https://doi.org/10.1098/rspb.2009.2041). *Proceedings of the Royal Society B* 277: 1589-1596.
 
