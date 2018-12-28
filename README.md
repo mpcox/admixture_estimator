@@ -1,6 +1,6 @@
 # Admixture Estimator
 
-The R code presented here calculates the admixture estimates shown in:
+The R code presented here calculates the admixture estimates reported in:
 
 Cox MP, TM Karafet, JS Lansing, H Sudoyo and MF Hammer. 2010. [Autosomal and X-linked single nucleotide polymorphisms reveal a steep Asian-Melanesian ancestry cline in eastern Indonesia and a sex bias in admixture rates](https://doi.org/10.1098/rspb.2009.2041). *Proceedings of the Royal Society B* 277: 1589-1596.
 
@@ -28,4 +28,4 @@ The code calculates the admixture estimator of Chakraborty *et al* (1992). Howev
 
 The code returns mean and median estimates of the admixture proportion (relative to the parental reference population), together with assymetric 95% confidence intervals.
 
-> Note: This code was designed for small numbers of ancestry informative markers and will not scale well. For very large numbers of markers (e.g., from SNP genotyping arrays), alternative approaches might be preferable.
+> Note: This code was designed for small numbers of ancestry informative markers and will not scale well. For very large numbers of markers (e.g., from SNP genotyping arrays), alternative approaches would be preferable.
